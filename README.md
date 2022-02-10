@@ -14,9 +14,9 @@ def mainmenu():
         playmenu()
         mainmenu()
     else:
-        print('Se cierra el juego')
-    
-
+        print('Thanks for playing\nWe hope you have liked it')
+        return exit(0)
+        
 def modifywords():
     selected2=int((input('Select one of the four options:\n1.Add category\n2.Modify category\n3.Delete category\n4.Return to main menu\nYour choice:')))
     if selected2==1:
